@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding ="UTF-8" ?>
+<menu>
+   <section name ="Drinks">
+     <entry>
+        <item>Kombucha</item>
+        <price>2.50</price>
+     </entry>
+    
+     <entry glutenfree="true">
+         <item>Coke</item>
+         <price>2.50</price>
+      </entry>
+      </section>
+      <section name="Side Dishes">
+     <entry>
+        <item>Potato Salad</item>
+        <price>2.50</price>
+     </entry>
+     <entry>
+        <item>Chips</item>
+        <price>3.50</price>
+     </entry>
+     <section name="Breakfast">
+     <entry>
+        <item>Eggs Benedict</item>
+        <price>28.50</price>
+     </entry>
+     <section name =<"Lunch">
+     <entry>
+        <item>Pasta</item>
+        <price>12.50</price>
+     </entry>
+
+ </section> 
+</menu>
