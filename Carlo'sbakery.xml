@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding ="UTF-8" ?>
+<menu>
+  <section name ="Breads">
+     <entry>
+        <item> Baguette</item>
+        <price>$15</price>
+     </entry>
+     <entry>
+        <item>Whole Wheat Bread</item>
+        <price>$17</price>
+     </entry>
+     <entry>
+        <item>Plain Brioche</item>
+        <price>$13</price>
+     </entry>
+ </section> 
+   <section name ="Pastries">
+     <entry>
+        <item>Croissant</item>
+        <price>$6</price>
+     </entry>
+     <entry>
+        <item>Mile-Feuille</item>
+        <price>$12</price>
+     </entry>
+     <entry>
+        <item>Cannoli</item>
+        <price>$13</price>
+     </entry>
+     <entry gluten-free="true">
+        <item>Cherry pie</item>
+        <price>$15</price>
+     </entry>
+ </section> 
+   <section name ="Cakes">
+     <entry>
+        <item>Yellow Butter Cake</item>
+        <price>$15</price>
+     </entry>
+     <entry>
+        <item>Red Velvet Cake</item>
+        <price>$17</price>
+     </entry>
+     <entry>
+        <item>Chiffon Cake</item>
+        <price>$13</price>
+     </entry>
+ </section> 
+ <section name ="Pies">
+     <entry>
+        <item>Cisp Apple</item>
+        <price>$12</price>
+     </entry>
+     <entry>
+        <item>Fresh Peach</item>
+        <price>$12</price>
+     </entry>
+     <entry gluten-free="true">
+        <item>Cramberry Peach</item>
+        <price>$13</price>
+     </entry>
+   
+       
+ </section> 
+ <section name ="CupCakes">
+     <entry>
+        <item>Salted Chocolate</item>
+        <price>$8</price>
+     </entry>
+     <entry gluten-free="true">
+        <item>Blueberry</item>
+        <price>$8</price>
+     </entry>
+     <entry>
+        <item>Vanilla Sprinkle</item>
+        <price>$8</price>
+     </entry>
+   <section name ="Coffee">
+     <entry>
+        <item>Americano</item>
+        <price>$3</price>
+     </entry>
+     <entry>
+        <item>Expresso</item>
+        <price>$2,50</price>
+     </entry>
+     <entry>
+        <item>Cappuccino</item>
+        <price>$5</price>
+     </entry>
+   
+       
+ </section> 
+       
+ </section> 
+</menu>
