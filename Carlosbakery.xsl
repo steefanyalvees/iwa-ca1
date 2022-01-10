@@ -41,5 +41,11 @@
         <form class="indent">
         <p><input type="button" name="calcuBill" value="Calculate"
         id="calcBill"/>
+        Total: £
+        <input type="text" name="txtBillAmt/"><input
+        type="checkbox" name="cb0pts" value="isVeg"
+        id="showVeg"/><label for="showVeg">HighLight
+        vegetarian Meals</label></p>
+        </form>
     </xsl:template>
 </xsl:stylesheet>
