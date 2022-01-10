@@ -22,7 +22,13 @@ const express = require("express"), // listing the modulos to allow the http req
                   console.log(xsl) //reading the files
 
                   let doc = xmlParse(xml) //placeholder to read the file 
-                      StyleSheet 
+                      stylesheet = xmlParse(xsl);
+                  
+                  let result = xsltProcess(doc, stylesheet);
+                  console.log(result);
+
+                  res.end(result.toString());
+
             });
             
             //listing to the income connection
