@@ -16,7 +16,7 @@ const express = require("express"), // listing the modulos to allow the http req
               res.writeHead(200, {'Content-Type' : 'text/html'});
           
               let xml = fs.readFileSync('library.xml', 'uft8'),
-                  xml = fs.readFileSync('library.xsl', 'uft8');
+                  xsl = fs.readFileSync('library.xsl', 'uft8');
 
                   console.log(xml)
                   console.log(xsl) //reading the files
