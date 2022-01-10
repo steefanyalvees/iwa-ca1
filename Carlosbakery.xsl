@@ -38,5 +38,8 @@
                 </xsl:for-each>
             </tbody>
         </table>
+        <form class="indent">
+        <p><input type="button" name="calcuBill" value="Calculate"
+        id="calcBill"/>
     </xsl:template>
 </xsl:stylesheet>
