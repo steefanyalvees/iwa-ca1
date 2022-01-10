@@ -1,0 +1,10 @@
+
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+             background-color:white;
+             text-align: left;}
+             
+             h2{font-size: 80%; color:#523819}
+             table{background-color:bisque}
+        
