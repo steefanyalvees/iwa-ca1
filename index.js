@@ -11,6 +11,19 @@ const express = require("express"), // listing the modulos to allow the http req
 
             router.use(express.static(path.resolve(__dirname,'views'))); //serving the static content from views folder
             
+            router.get('/', function(req, res) {
+            
+              res.writeHead(200,{'Content-Type' : 'text/html'});
+          
+              let xml = fs.readFileSync('library.xml', 'uft8'),
+                  xml = fs.readFileSync('library.xsl', 'uft8');
+
+                  console.log(xml)
+                  console.log(xsl) //reading the files
+
+                  let doc = xmlParse(xml) //placeholder to read the file 
+                      StyleSheet 
+            });
             
             //listing to the income connection
             server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function(){
