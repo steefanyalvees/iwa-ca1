@@ -1,46 +1,71 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<?xml-stylesheet type="text/xsl" href="library.xsl"?>
-
-<BOOKS>
-<section name="Horror">
-	<BOOK>
-		<TITLE>Prototype &amp; Scriptaculous In Action</TITLE>
-		<AUTHOR>Thomas Fuchs</AUTHOR>
-		<ISBN>1-933988-03-7</ISBN>
-	</BOOK>
-	</section>
-	<section name="Comedy">
-	<BOOK>
-		<TITLE>Ajax on Rails</TITLE>
-		<AUTHOR>Scott Raymond</AUTHOR>
-		<ISBN>0-569-52744-6</ISBN>
-	</BOOK>
-	</section>
-	<section name="Romance">
-	<BOOK>
-		<TITLE>Head Rush Ajax</TITLE>
-		<AUTHOR>Brett McLaughlin</AUTHOR>
-		<ISBN>0-569-10225-9</ISBN>
-		
-	</BOOK>
-	</section>
-	<section name="Advanture">
-	<BOOK>
-		<TITLE>XSLT</TITLE>
-		<AUTHOR>Doug Tidwell</AUTHOR>
-		<ISBN>0-569-00053-7</ISBN>
-	</BOOK>
-	<BOOK>
-		<TITLE>Bulletproof Ajax</TITLE>
-		<AUTHOR>Jeremy Keith</AUTHOR>
-		<ISBN>0-321-47266-7</ISBN>
-		
-	</BOOK>
-	<BOOK>
-		<TITLE>Professional Ajax</TITLE>
-		<AUTHOR>Nicholas Zakas</AUTHOR>
-		<ISBN>0-470-10949-1</ISBN>
-		
-	</BOOK>
-	</section>
-</BOOKS>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href=";ibrary.xsl"?>
+<menu>
+    <section name="HORROR">
+        <entry>
+            <item>Coke</item>
+            <price>2.50</price>
+        </entry>
+        <entry>
+            <item>Vodka</item>
+            <price>15</price>
+        </entry>
+        <entry vegetarian="true">
+            <item>Kombucha</item>
+            <price>2.0</price>
+        </entry>        
+    </section>
+    <section name="DRAMA">
+        <entry>
+            <item>Potato Salad</item>
+            <price>4.95</price>
+        </entry>
+        <entry>
+            <item>Chips</item>
+            <price>4.50</price>
+        </entry>
+        <entry vegetarian="true">
+            <item>Rice</item>
+            <price>4.0</price>
+        </entry>        
+    </section>
+    <section name="FICTION">
+        <entry>
+            <item>Eggs Benedict</item>
+            <price>12.99</price>
+        </entry>
+        <entry>
+            <item>Poached Eggs</item>
+            <price>8</price>
+        </entry>
+                
+    </section>
+    <section name="WELLBEING">
+        <entry>
+            <item>Grilled Chicken Sadnwich</item>
+            <price>7.50</price>
+        </entry>
+        <entry>
+            <item>Soup of the Day</item>
+            <price>6</price>
+        </entry>
+        <entry vegetarian="true">
+            <item>Falafel</item>
+            <price>10</price>
+        </entry>        
+    </section>
+    <section name="SPIRUTALITTY">
+        <entry>
+            <item>Ribeye Steak</item>
+            <price>19.99</price>
+        </entry>
+        <entry>
+            <item>Sushi</item>
+            <price>15</price>
+        </entry>
+        <entry vegetarian="true">
+            <item>Shahshuka</item>
+            <price>15</price>
+        </entry>        
+    </section>
+</menu>
