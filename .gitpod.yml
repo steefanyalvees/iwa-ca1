@@ -2,9 +2,3 @@
 tasks:
   - init: npm i -g xslt3 # runs during presbuild 
 
-  - init: yarn install
-    command: yarn build
-# Ports to expose on workspace startup
-ports:
-  - port: 3000
-    onOpen: open-preview
