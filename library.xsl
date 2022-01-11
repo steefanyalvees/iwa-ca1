@@ -1,39 +1,34 @@
-<?xml version="1.0"?> 
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<!-- All this does is make simple HTML, the format is in the CSS file -->
+
 <xsl:template match="/">
-<table id="menuTable" border="1" class="indent">
-    <thead>
-        <tr>
-            <th>Select</th>
-            <th>Item</th>
-            <th>Price</th>
-        </tr>
-    </thead>
-    <tbody>
-        <xsl:for-each select="//section">
-            <tr>
-                <td colspan="3">
-                    <xsl:value-of select="@name" />
-                </td>
-            </tr>
-            <xsl:for-each select="entry">
-                <tr id="{position()}">
-                    <xsl:attribute name="vegetarian">
-                        <xsl:value-of select="boolean(@vegetarian)" />
-                    </xsl:attribute>
-                    <td align="center">
-                        <input name="item0" type="checkbox" />
-                    </td>
-                    <td>
-                        <xsl:value-of select="item" />
-                    </td>
-                    <td align="right">
-                        <xsl:value-of select="price" />
-                    </td>
-                </tr>
-            </xsl:for-each>
-        </xsl:for-each>
-    </tbody>
-</table>
+  <html>
+  <head>
+  <title>Books</title>
+  <link rel="StyleSheet" href="books.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <h1>Books</h1>
+    <table>
+    <tr>
+      <th>Title</th>
+      <th>Author</th>
+      <th>ISBN</th>
+    </tr>
+    <xsl:for-each select="BOOKS/BOOK">
+	<xsl:sort select="TITLE" order="ascending" />
+    <tr>
+      <td><xsl:value-of select="TITLE"/></td>
+      <td><xsl:value-of select="AUTHOR"/></td>
+      <td><xsl:value-of select="ISBN"/></td>
+    </tr>
+    </xsl:for-each>
+    </table>
+  </body>
+  </html>
 </xsl:template>
+
 </xsl:stylesheet>
