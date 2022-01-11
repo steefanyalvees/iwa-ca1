@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="library.xsl"?>
 
 <BOOKS>
-<section name="Horror"
+<section name="Horror">
 	<BOOK>
 		<TITLE>Prototype &amp; Scriptaculous In Action</TITLE>
 		<AUTHOR>Thomas Fuchs</AUTHOR>
