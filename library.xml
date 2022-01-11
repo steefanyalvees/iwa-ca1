@@ -1,73 +1,159 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="library.xsl"?>
 <books>
-    <section name="HORROR">
-        <entry>
-            <item>The Shining by Stephen King</item>
-            <value>15</value>
-        </entry>
-        <entry>
-            <item>The Turn of the Screw by Henry James</item>
-            <value>15</value>
-        </entry>
-        <entry >
-            <item>The Haunting of Hill House by Shirley Jackson</item>
-            <value>15</value>
-        </entry>        
-    </section>
-    <section name="DRAMA">
-        <entry>
-            <item>Then She Was Gone: A Novel by Lisa Jewell</item>
-            <value>15</value>
-        </entry>
-        <entry>
-            <item>Before We Were Yours by Lisa Wingate</item>
-            <value>15</value>
-        </entry>
-        <entry>
-            <item>Where the Crawdads Sing by Delia Owens</item>
-            <value>15</value>
-        </entry>        
-    </section>
-    <section name="FICTION">
-        <entry>
-            <item>The Vanishing Half, Brit Bennett</item>
-            <value>15</value>
-        </entry>
-        <entry>
-            <item>Shuggie Bain, Douglas Stuart</item>
-            <value>15</value>
-        </entry>
-      </section>
-      
-  
+    <list>  
+    
+            <bookname>The Shining by Stephen King </bookname>
+            <gender>HORROR</gender>
+            <price>15 </price>
+            <author> author</author> 
+        </list>
 
-    <section name="WELLBEING">
-        <entry>
-            <item>A Beautiful Mind</item>
-            <value>15</value>
-        </entry>
-        <entry>
-            <item>Back, After the Break – Osher Günsberg</item>
-            <value>15</value>
-        </entry>
-        <entry>
-            <item>Everything Here Is Beautiful</item>
-            <value>15</value>
-        </entry>        
-    </section>
-    <section name="SPIRUTALITTY">
-        <entry>
-            <item>The Four Agreements</item>
-            <value>15</value>
-        </entry>
-        <entry>
-            <item>Feeding the Soul </item>
-           <value>15</value>
-        </entry>
-        <entry>
-            <item>The Power of Now: A Guide to Spiritual</item>
-            <value>15</value>
-        </entry>        
-    </section>
+         <list>  
+    
+            <bookname>The Hunger  </bookname>
+            <gender>HORROR</gender>
+            <price>15 </price>
+            <author> ALMA KATSU</author> 
+        </list>
+
+        <list>  
+    
+            <bookname>The Turn of the Screw  </bookname>
+            <gender>HORROR</gender>
+            <price>15 </price>
+            <author> Henry James</author> 
+        </list>
+
+        <list>  
+    
+            <bookname>Frankenstein </bookname>
+            <gender>HORROR</gender>
+            <price>15 </price>
+            <author> MARY SHELLEY</author> 
+        </list>
+
+         <list>  
+    
+            <bookname>Then She Was Gone: A Novel </bookname>
+            <gender>DRAMA</gender>
+            <price>15 </price>
+            <author> Lisa Jewell</author> 
+        </list>
+
+         <list>  
+    
+            <bookname>Before We Were Yours  </bookname>
+            <gender>DRAMA</gender>
+            <price>15 </price>
+            <author> Lisa Wingate</author> 
+        </list>
+
+         <list>  
+    
+            <bookname>Where the Crawdads Sing </bookname>
+            <gender>DRAMA</gender>
+            <price>15 </price>
+            <author> Delia Owens</author>
+                    </list>
+        
+        <list>  
+    
+            <bookname>The Other </bookname>
+            <gender>DRAMA</gender>
+            <price>15 </price>
+            <author> THOMAS TRYON</author>
+                    </list>
+
+                    <list>  
+    
+            <bookname>House of Leaves </bookname>
+            <gender>DRAMA</gender>
+            <price>15 </price>
+            <author> MARK Z. DANIELEWSKI</author>
+                    </list>
+
+           <list>  
+    
+            <bookname>A Beautiful Mind </bookname>
+            <gender>MINDSET</gender>
+            <price>15 </price>
+            <author> Delia Owens</author>
+        </list>
+
+           <list>  
+    
+            <bookname>Back, After the Break </bookname>
+            <gender>MINDSET</gender>
+            <price>15 </price>
+            <author>Lion Jhon</author>
+        </list>
+
+           <list>  
+    
+            <bookname>Everything Here Is Beautiful </bookname>
+            <gender>MINDSET</gender>
+            <price>15 </price>
+            <author>Joshep Lurc</author>
+        </list>
+
+         <list>  
+    
+            <bookname>Screw It, Let’s Do It </bookname>
+            <gender>MINDSET</gender>
+            <price>15 </price>
+            <author>Erik Lurc</author>
+        </list>
+
+         <list>  
+    
+            <bookname>Don’t Eat the Marshmallow Yet!</bookname>
+            <gender>MINDSET</gender>
+            <price>15 </price>
+            <author>Joaquim Posada</author>
+        </list>
+        
+
+        <list>  
+    
+            <bookname>Moby-Dick</bookname>
+            <gender>ADVENTURE</gender>
+            <price>15 </price>
+            <author>Herman Melville</author>
+        </list>
+
+        <list>  
+    
+            <bookname>The Call of the Wild </bookname>
+            <gender>ADVENTURE</gender>
+            <price>15 </price>
+            <author>Jack London</author>
+        </list>
+
+        <list>  
+    
+            <bookname>Odyssey</bookname>
+            <gender>ADVENTURE</gender>
+            <price>15 </price>
+            <author>Homer</author>
+        </list>
+
+        <list>  
+    
+            <bookname>Into the Wild </bookname>
+            <gender>ADVENTURE</gender>
+            <price>15 </price>
+            <author>Krakauer</author>
+        </list>
+
+        <list>  
+    
+            <bookname>Treasure Island</bookname>
+            <gender>ADVENTURE</gender>
+            <price>15 </price>
+            <author>Robert Louis </author>
+            
+        </list>
+
+
 </books>
