@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+
+<xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
 <xsl:template match="/">
- 
- <html>
+  <html>
   <body>
-  <h2>BOOOK COLLECTION</h2>
-<table id="books" border="1" class="indent">
-    <thead>
-        <tr>
-            <th>Select</th>
-            <th>Item</th>
-            <th>Value</th>
-            
-        </tr>
-    
-        <xsl:for-each select="//section">
-            <tr>
-                <td><xsl:value-of select="select"/></td>
-                <td><xsl:value-of select="item"/></td>
-                <td><xsl:value-of select="value"/></td>
-            </tr>
-            </select>
-   </table>
- 
-    </body>
-</html>
+  <h2>Book</h2>
+  <table border="1">
+    <tr bgcolor="#9acd32">
+      <th>Select</th>
+      <th>value</th>
+      <th>availability</th>
+    </tr>
+    <xsl:for-each select="books/section">
+    <tr>
+      <td><xsl:value-of select="entry"/></td>
+      <td><xsl:value-of select="item"/></td>
+      <td><xsl:value-of select="value"/></td>
+
+    </tr>
+    </xsl:for-each>
+  </table>
+  </body>
+  </html>
 </xsl:template>
+
 </xsl:stylesheet>

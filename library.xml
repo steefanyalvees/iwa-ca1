@@ -15,10 +15,6 @@
             <value>15</value>
         </entry>        
     </section>
-
-
-
-    
     <section name="DRAMA">
         <entry>
             <item>Then She Was Gone: A Novel by Lisa Jewell</item>
@@ -42,12 +38,10 @@
             <item>Shuggie Bain, Douglas Stuart</item>
             <value>15</value>
         </entry>
-        <entry>
-            <item>The Mirror & the Light, Hilary Mantel.</item>
-            <value>15</value>
-        </entry>
-                
-    </section>
+      </section>
+      
+  
+
     <section name="WELLBEING">
         <entry>
             <item>A Beautiful Mind</item>
