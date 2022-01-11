@@ -16,11 +16,14 @@
     
         <xsl:for-each select="//section">
             <tr>
+                <td><xsl:value-of select="select"/></td>
                 <td><xsl:value-of select="item"/></td>
                 <td><xsl:value-of select="value"/></td>
             </tr>
-
-    <tbody>
-</table>
+            </select>
+   </table>
+ 
+    </body>
+</html>
 </xsl:template>
 </xsl:stylesheet>
