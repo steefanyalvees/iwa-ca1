@@ -5,15 +5,16 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:template match="/">
   <html>
-  <body>
-  <h2>Book</h2>
+ <body>
+  <title>Book<title>
+
   <table border="1">
     <tr bgcolor="#9acd32">
       <th>Book</th>
       <th>gender</th>
       <th>price</th>
       <th>author</th>
-      <th>select</th>
+      
     </tr>
     <xsl:for-each select="books/list">
     <tr >
