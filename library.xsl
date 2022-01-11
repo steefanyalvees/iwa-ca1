@@ -1,32 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<xsl:stylesheet version="1.0"
-xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
+<?xml version="1.0"?> 
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 <xsl:template match="/">
-  
-
-  <table border="1">
-    
-      <th>Book</th>
-      <th>gender</th>
-      <th>price</th>
-      <th>author</th>
-      
-    </tr>
-    <xsl:for-each select="books/list">
-    <tr >
-      <td><xsl:value-of select= "bookname"/></td>
-      <td><xsl:value-of select="gender"/></td>
-      <td><xsl:value-of select="price"/></td>
-      <td><xsl:value-of select="author"/></td>
-                      
-    </tr>
-    </xsl:for-each>
-
-   
-
-  </table>
-  
+<table id="menuTable" border="1" class="indent">
+    <thead>
+        <tr>
+            <th>Select</th>
+            <th>Item</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <xsl:for-each select="//section">
+            <tr>
+                <td colspan="3">
+                    <xsl:value-of select="@name" />
+                </td>
+            </tr>
+            <xsl:for-each select="entry">
+                <tr id="{position()}">
+                    <xsl:attribute name="vegetarian">
+                        <xsl:value-of select="boolean(@vegetarian)" />
+                    </xsl:attribute>
+                    <td align="center">
+                        <input name="item0" type="checkbox" />
+                    </td>
+                    <td>
+                        <xsl:value-of select="item" />
+                    </td>
+                    <td align="right">
+                        <xsl:value-of select="price" />
+                    </td>
+                </tr>
+            </xsl:for-each>
+        </xsl:for-each>
+    </tbody>
+</table>
 </xsl:template>
 </xsl:stylesheet>
