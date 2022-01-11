@@ -11,7 +11,7 @@ const express = require("express"), // listing the modulos to allow the http req
 
             router.use(express.static(path.resolve(__dirname,'views'))); //serving the static content from views folder
             
-            router.get('/get/html', function(req, res) {
+            router.get('/', function(req, res) {
             
               res.writeHead(200, {'Content-Type' : 'text/html'});
           
