@@ -1,71 +1,79 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="library.xsl"?>
-<menu>
+<books>
     <section name="HORROR">
         <entry>
-            <item>Coke</item>
-            <price>2.50</price>
+            <item>The Shining by Stephen King</item>
+            <value>15</value>
         </entry>
         <entry>
-            <item>Vodka</item>
-            <price>15</price>
+            <item>The Turn of the Screw by Henry James</item>
+            <value>15</value>
         </entry>
-        <entry vegetarian="true">
-            <item>Kombucha</item>
-            <price>2.0</price>
+        <entry >
+            <item>The Haunting of Hill House by Shirley Jackson</item>
+            <value>15</value>
         </entry>        
     </section>
+
+
+
+    
     <section name="DRAMA">
         <entry>
-            <item>Potato Salad</item>
-            <price>4.95</price>
+            <item>Then She Was Gone: A Novel by Lisa Jewell</item>
+            <value>15</value>
         </entry>
         <entry>
-            <item>Chips</item>
-            <price>4.50</price>
+            <item>Before We Were Yours by Lisa Wingate</item>
+            <value>15</value>
         </entry>
-        <entry vegetarian="true">
-            <item>Rice</item>
-            <price>4.0</price>
+        <entry>
+            <item>Where the Crawdads Sing by Delia Owens</item>
+            <value>15</value>
         </entry>        
     </section>
     <section name="FICTION">
         <entry>
-            <item>Eggs Benedict</item>
-            <price>12.99</price>
+            <item>The Vanishing Half, Brit Bennett</item>
+            <value>15</value>
         </entry>
         <entry>
-            <item>Poached Eggs</item>
-            <price>8</price>
+            <item>Shuggie Bain, Douglas Stuart</item>
+            <value>15</value>
+        </entry>
+        <entry>
+            <item>The Mirror & the Light, Hilary Mantel.</item>
+            <value>15</value>
         </entry>
                 
     </section>
     <section name="WELLBEING">
         <entry>
-            <item>Grilled Chicken Sadnwich</item>
-            <price>7.50</price>
+            <item>A Beautiful Mind</item>
+            <value>15</value>
         </entry>
         <entry>
-            <item>Soup of the Day</item>
-            <price>6</price>
+            <item>Back, After the Break – Osher Günsberg</item>
+            <value>15</value>
         </entry>
-        <entry vegetarian="true">
-            <item>Falafel</item>
-            <price>10</price>
+        <entry>
+            <item>Everything Here Is Beautiful</item>
+            <value>15</value>
         </entry>        
     </section>
     <section name="SPIRUTALITTY">
         <entry>
-            <item>Ribeye Steak</item>
-            <price>19.99</price>
+            <item>The Four Agreements</item>
+            <value>15</value>
         </entry>
         <entry>
-            <item>Sushi</item>
-            <price>15</price>
+            <item>Feeding the Soul </item>
+           <value>15</value>
         </entry>
-        <entry vegetarian="true">
-            <item>Shahshuka</item>
-            <price>15</price>
+        <entry>
+            <item>The Power of Now: A Guide to Spiritual</item>
+            <value>15</value>
         </entry>        
     </section>
-</menu>
+</books>
