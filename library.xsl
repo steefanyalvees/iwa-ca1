@@ -7,7 +7,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   
 
   <table border="1">
-    <tr bgcolor="#9acd32">
+    
       <th>Book</th>
       <th>gender</th>
       <th>price</th>
@@ -20,18 +20,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <td><xsl:value-of select="gender"/></td>
       <td><xsl:value-of select="price"/></td>
       <td><xsl:value-of select="author"/></td>
-      
-
-
-                    
-                        
+                      
     </tr>
     </xsl:for-each>
 
    
 
   </table>
-  </body>
-  </html>
+  
 </xsl:template>
 </xsl:stylesheet>
