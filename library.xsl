@@ -7,12 +7,13 @@
 <xsl:template match="/">
   <html>
   <head>
+ 
   <title>Books</title>
   <link rel="StyleSheet" href="library.css" type="text/css" media="screen" />
   </head>
   <body>
     <h1>Books</h1>
-    <table>
+     <table id="Table" border="1" class="indent">
     <tr>
       <th>Title</th>
       <th>Author</th>
