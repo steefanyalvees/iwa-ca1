@@ -16,7 +16,7 @@ const express = require("express"), // listing the modulos to allow the http req
                 var filepath= path.normalize(path.join(__dirname,filename));
                 fs.readFile(filepath,'utf8',function(err,xmlStr){
                 if (err) throw (err);
-                xml2js.parseString(smlStr,{},cb);
+                xml2js.parseString(xmlStr,{},cb);
             });
         };
 
@@ -63,6 +63,16 @@ const express = require("express"), // listing the modulos to allow the http req
                      if (err) throw (err);
                     result.books.section[obj.sec_n].entry.push(
                     {'bookname': book.item,'price': obj.price});
+
+                    console.log(JSON.stringify(result, null, " ");
+                  
+                    JSONtoXML('library.xml',result,function)
+                    (err)
+                    {
+                        if (err)console.log(err);
+
+                    };
+                        
 
                     })
                      }
