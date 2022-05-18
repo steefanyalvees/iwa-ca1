@@ -11,6 +11,25 @@ const express = require("express"), // listing the modulos to allow the http req
 
             router.use(express.static(path.resolve(__dirname,'views'))); //serving the static content from views folder
             
+            function XMLtoJS(filename,cb)
+            { 
+                var filepath= path.normalize(path.join(__dirname,filename));
+                fs.readFile(filepath,'utf8',function(err,xmlStr){
+                if (err) throw (err);
+                xml2js.parseString(smlStr,{},cb);
+            });
+        };
+
+        function JStoXML(filename,obj,cd){
+            let filepath= path.normalize(path.join(_dirname,filename));
+            let builder = new xml2js.Builder();
+            let xml = builder.buildObject(obj);
+            fs.unlinkSync(filepath);
+            fs.writeFile(filepath,xml,cb);
+        }
+
+                
+            
             router.get('/get/html', function(req, res) {
             
               res.writeHead(200, {'Content-Type' : 'text/html'});
@@ -28,6 +47,12 @@ const express = require("express"), // listing the modulos to allow the http req
                   console.log(result);
 
                   res.end(result.toString());
+
+            });
+
+            router.post('post/json',funtion(req,res)
+            {
+
 
             });
             
