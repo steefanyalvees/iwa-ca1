@@ -20,7 +20,7 @@ const express = require("express"), // listing the modulos to allow the http req
             });
         };
 
-        function JStoXML(filename,obj,cd){
+        function JSONtoXML(filename,obj,cd){
             let filepath= path.normalize(path.join(_dirname,filename));
             let builder = new xml2js.Builder();
             let xml = builder.buildObject(obj);
@@ -50,10 +50,22 @@ const express = require("express"), // listing the modulos to allow the http req
 
             });
 
-            router.post('post/json',funtion(req,res)
-            {
+            router.post('post/json',function(req,res){
+            
+                function appendJSON(obj){
+                
 
+                 console.log(obj)
 
+                 XMLtoJSON('library.xml', function (err,result)
+
+                 {
+                     if (err) throw (err);
+                    result.books.section[obj.sec_n].entry.push(
+                    {'bookname': book.item,'price': obj.price});
+
+                    })
+                     }
             });
             
             //listing to the income connection
