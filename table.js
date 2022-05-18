@@ -15,5 +15,16 @@ return $.ajax({
 });} };
 $.getHTMLuncached("/get/html)");
 
+function append()
+{
+  $("#delete").click(function(){
+
+  console.
+
+  });
+
+
+}
+
 $(document).ready(function()
 {draw_table()})

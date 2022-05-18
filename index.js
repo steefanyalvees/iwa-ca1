@@ -55,7 +55,7 @@ const express = require("express"), // listing the modulos to allow the http req
                 function appendJSON(obj){
                 
 
-                 console.log(obj)
+                 console.log(JSON.stringify(obj,null,""))
 
                  XMLtoJSON('library.xml', function (err,result)
 
